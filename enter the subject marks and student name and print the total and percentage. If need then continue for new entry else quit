@@ -1,0 +1,18 @@
+m=True
+while True:
+ name=input('enter the STUDENT NAME')
+ a=float(input('enter the MATH marks==>'))
+ b=float(input('enter the SCIENCE marks==>'))
+ c=float(input('enter the COMPUTER marks==>'))
+ d=float(input('enter the ENGLISH marks==>'))
+ total=a+b+c+d
+ print('the TOTAL marks are==>',total)
+ percentage=float(total)*(100.00/400.00)
+ print('the PERCENTAGE are==>',percentage)
+ 
+ a=input('do you want to continue for new entries press Y')
+ if a='y':
+   m=True
+ else:
+   print('Thank You')
+   break
