@@ -11,7 +11,7 @@ while True:
  print('the PERCENTAGE are==>',percentage)
  
  a=input('do you want to continue for new entries press Y')
- if a='y':
+ if a=='y':
    m=True
  else:
    print('Thank You')
